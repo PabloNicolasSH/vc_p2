@@ -17,7 +17,11 @@ en la fila 12 y la 100, así se muestra en la gráfica.
 ![](results/t1_canny.png)
 
 ### TAREA 2
-Para realizar esta tarea, partimos del código desarrollado en la tarea 1
+Para esta tarea se reutilizó el código anterior para el conteo de las filas, las columnas y los máximos. Estos métodos
+se aplicaron tanto en la imagen _sobel_ como en la _canny_. Por último, para el resaltado de las filas y columnas
+máximas (que ya las teníamos gracias al cófigo anterior), se dibujaron líneas sobre las filas y columnas
+correspondientes.
+
 
 #### Resultados obtenidos
 
@@ -28,14 +32,14 @@ Para realizar esta tarea, partimos del código desarrollado en la tarea 1
 ![](results/t2_count_canny.png)
 
 #### Comparación Sobel vs Canny
-En la comparativa de las gráficas podemos apreciar de que al aplicar Sobel el valor máximo es mayor, cerca del 50%
-en el conteo de filas, mientras que Canny está en un 40% aproximadamente. En el conteo de columnas sucede lo mismo, Canny está
-cerca del 35%-40% como valores más altos, mientras que el Sobel supera ligeramente el 40%.
+En la comparativa de las gráficas podemos apreciar de que al aplicar _Sobel_ el valor máximo es mayor, cerca del 50%
+en el conteo de filas, mientras que _Canny_ está en un 40% aproximadamente. En el conteo de columnas sucede lo mismo, _Canny_ está
+cerca del 35%-40% como valores más altos, mientras que el _Sobel_ supera ligeramente el 40%.
 
-Por otro lado, en las imágenes con las filas y columnas de mayor valor resaltadas, podemos ver que Sobel detecta un mayor
+Por otro lado, en las imágenes con las filas y columnas de mayor valor resaltadas, podemos ver que _Sobel_ detecta un mayor
 número de ambas. 
 
-Es por todo esto, que concluimos que Sobel captura un mayor número de detalles mientras que Canny detecta bordes
+Es por todo esto, que concluimos que _Sobel_ captura un mayor número de detalles mientras que _Canny_ detecta bordes
 más nítidos o mejor definidos.
 
 ### TAREA 3
@@ -58,7 +62,7 @@ muestra ese color en su máximo valor.
 
 ### TAREA 4
 
-Basándonos en el vídeo de "Messa di voce" decidimos aplicar al vídeo capturado un filtro Canny y sobre el frame generado 
+Basándonos en el vídeo de "Messa di voce" decidimos aplicar al vídeo capturado un filtro _Canny_ y sobre el _frame_ generado 
 pintar líneas en los bordes y círculos dentro de los contornos o recintos cerrados. Estos contornos deben de ser de un 
 tamaño superior a 300 píxeles para ser detectado.
 
