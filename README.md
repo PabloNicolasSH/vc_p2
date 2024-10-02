@@ -46,6 +46,11 @@ más nítidos o mejor definidos.
 
 Para esta tarea se decidió crear dos filtros.
 
+Estos filtros se habilitan mediante teclado y se cambia la ventana de reproducción:
+- Tecla 1: Modo normal
+- Tecla 2: Modo pixelado
+- Tecla 3: Modo color
+
 El primero detecta el movimiento (contando los píxeles que han cambiado entre dos frames en cierto margen), y pixela la
 imagen (reduciéndola y volviendo a ampliarla) dependiendo del movimiento que detecta. A mayor movimiento, más se pixela la
 imagen.
