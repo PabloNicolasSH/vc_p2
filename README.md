@@ -4,7 +4,7 @@
 > - David Koschel Henríquez
 > - Pablo Nicolás Santana Hernández
 
-### TAREA 1
+## TAREA 1
 
 Para esta tarea se copió el código existente del conteo de píxeles blancos en las columnas y se modificaron ciertos valores para realizar el conteo
 por filas. Se cambió el segundo parámetro del _reduce_ a 1 para que cogiese las filas. Luego se normalizaron los datos
@@ -16,7 +16,7 @@ en la fila 12 y la 100, así se muestra en la gráfica.
 
 ![](results/t1_canny.png)
 
-### TAREA 2
+## TAREA 2
 Para esta tarea se reutilizó el código anterior para el conteo de las filas, las columnas y los máximos. Estos métodos
 se aplicaron tanto en la imagen _sobel_ como en la _canny_. Por último, para el resaltado de las filas y columnas
 máximas (que ya las teníamos gracias al cófigo anterior), se dibujaron líneas sobre las filas y columnas
@@ -42,7 +42,7 @@ número de ambas.
 Es por todo esto, que concluimos que _Sobel_ captura un mayor número de detalles mientras que _Canny_ detecta bordes
 más nítidos o mejor definidos.
 
-### TAREA 3
+## TAREA 3
 
 Para esta tarea se decidió crear dos filtros.
 
@@ -60,7 +60,7 @@ muestra ese color en su máximo valor.
 ![](results/t3_color_img.png)
 
 
-### TAREA 4
+## TAREA 4
 
 Basándonos en el vídeo de "Messa di voce" decidimos aplicar al vídeo capturado un filtro _Canny_ y sobre el _frame_ generado 
 pintar líneas en los bordes y círculos dentro de los contornos o recintos cerrados. Estos contornos deben de ser de un 
